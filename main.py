@@ -65,4 +65,17 @@ def run_bot():
     time.sleep(10)
 
 if __name__ == "__main__":
+    # Print contact information and project availability
+    print("""
+    ******************************************************
+    Welcome to the TikTok Automation Bot Project!
+    
+    Developed by: mysterecode (mysteredev)
+    Available for collaboration and freelance projects.
+    
+    Contact me on Telegram: mysteredev
+    ******************************************************
+    """)
+    
+    # Run the bot
     run_bot()
