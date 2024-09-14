@@ -42,7 +42,10 @@ def run_bot():
 
     tiktok.login(driver, email, password, cookies)
 
-    tiktok.comment_user_video(driver, 'taylor', comments, 3)
+    try:
+        tiktok.comment_user_video(driver, 'taylor', comments, 3)
+    except:
+        print("Comment submission failed")
 
     time.sleep(5)
 
